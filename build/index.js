@@ -95,7 +95,7 @@ module.exports =
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar ReactColorSquare = function ReactColorSquare(props) {\n  var width = props.width,\n      height = props.height,\n      color = props.color,\n      text = props.text;\n\n  return _react2.default.createElement(\n    \"div\",\n    {\n      style: {\n        width: width || 100,\n        height: height || 100,\n        backgroundColor: color || \"blue\"\n      }\n    },\n    text\n  );\n};\n\nexports.default = ReactColorSquare;\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar ReactColorSquare = function ReactColorSquare(props) {\n  return _react2.default.createElement(\n    \"h1\",\n    null,\n    \"React Package component\"\n  );\n};\n\nexports.default = ReactColorSquare;\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
